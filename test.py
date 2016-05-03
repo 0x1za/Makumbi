@@ -1,6 +1,6 @@
 from apixu.client import ApixuClient, ApixuException
 import MySQLdb
-api_key = '01def7821ddc40c3a9c150301161804'
+api_key = 'GET YOU API KEY FROM APIXU.COM'
 client = ApixuClient(api_key)
 db = MySQLdb.connect("localhost", "root", "", "zambia_weather")
 cursor = db.cursor()
